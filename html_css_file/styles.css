@@ -1,0 +1,150 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ad9898;
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* To center the content horizontally */
+    flex-wrap: wrap; /* Allows wrapping of items to next line */
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* Styling for the person section */
+.person {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;  /* Adjust width of the box */
+    height: 700px;  /* Adjust height for larger images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.person img {
+    width: 200px;            /* Increase image width */
+    height: 200px;           /* Increase image height */
+    border-radius: 50%;      /* Make the image round */
+    border: 2px solid #ddd; /* Border around image */
+    object-fit: cover;       /* Ensure image doesn't get distorted */
+    margin-bottom: 20px;     /* Space between image and text */
+}
+
+.person-info {
+    text-align: center; /* Center align the text */
+}
+
+.person-info h2 {
+    font-size: 1.7rem;    /* Increase font size for heading */
+}
+
+.person-info p {
+    font-size: 1.2rem;    /* Increase font size for paragraph */
+}
+
+/* Hover effect for the person box */
+.person:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Container to hold all the person sections */
+main {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of person boxes */
+    justify-content: center; /* Center the boxes horizontally */
+    gap: 20px; /* Space between person boxes */
+}
+
+/* Styling for the subject section */
+.subject {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Heading for subjects */
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Styling for each individual section */
+.s1, .s2 {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.s1 h3, .s2 h3 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.s1 img, .s2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph and list styling */
+p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Subheading Styling */
+h4 {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+/* Section-specific spacing */
+.s1 ul, .s2 ul {
+    margin-left: 30px;
+}
+
+.s1 ul li, .s2 ul li {
+    margin-bottom: 12px;
+}
+
