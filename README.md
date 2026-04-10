@@ -30,5 +30,7 @@ Improving teamwork and problem-solving skills
 
 ---
 ## 👩‍💻 Team Members
-Sara Shrouf
-Aya Hamayel
+- Sara Shrouf
+- Aya Hamayel
+---
+  ---
